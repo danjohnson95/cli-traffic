@@ -1,0 +1,27 @@
+{
+    "name": "danj/traffic",
+    "description": "A CLI tool for displaying traffic on your commute",
+    "authors": [
+        {
+            "name": "Dan",
+            "email": "dan@danj.eu"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+    	   "Danj\\Traffic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "bin": [
+    	"bin/traffic"
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
