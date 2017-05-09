@@ -12,9 +12,9 @@ Ensure that your global Composer bin directory is in your PATH
 
 ## Configuration
 
-You'll need to specify the details about your commute in the configuration file. There's an example config file in this repo - `config.example.json`.
+You'll need to specify the details about your commute in the configuration file. There's an example config file in this repo - `config.example.php`.
 
-Just rename that file to `config.json` and fill in the required details.
+Just rename that file to `config.php` and fill in the required details.
 
 ## Usage
 
